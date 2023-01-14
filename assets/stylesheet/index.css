@@ -262,6 +262,7 @@ span + span {
   max-width: 65%;
   transition: 0.4s;
   animation: image 2s;
+  border-radius: 100%;
 }
 
 .home_info {
