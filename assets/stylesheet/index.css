@@ -711,6 +711,7 @@ img.logo-sena {
   font-size: 2.4rem;
   letter-spacing: 0.1rem;
   padding: 6rem 0 4rem 0;
+  margin-bottom: -2rem;
 }
 
 .container_img--contacto {
@@ -824,7 +825,7 @@ footer {
 .contianer--footer {
   border-top: 1px solid var(--jet);
   width: 90%;
-  margin: 0 auto;
+  margin: -6rem auto;
   padding-top: 4rem;
   display: flex;
   flex-direction: column;
