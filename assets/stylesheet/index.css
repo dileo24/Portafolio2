@@ -6,11 +6,11 @@
 
 :root {
   --white: #ffffff;
-  --light-grey: #d9d9d9;
-  --beaver: #a78976;
-  --black: #141414;
-  --eerie-black: #1f1f1f;
-  --jet: #292929;
+  --light-grey: #b4a978;
+  --beaver: #b4a978;
+  --black: #613f19;
+  --eerie-black: #241603;
+  --jet: #1d0e02;
 }
 
 * {
@@ -678,7 +678,7 @@ img.logo-sena {
 }
 
 .container_btn--proyectos .btn_demo:hover {
-  background: #776254;
+  background: var(--black);
   box-shadow: 0px 13px 33px -14px rgba(0, 0, 0, 0.75);
   transition: all 0.4s ease;
 }
@@ -719,7 +719,7 @@ img.logo-sena {
 
 .container--contacto {
   width: 100%;
-  background-color: var(--beaver);
+  background-color: var(--eerie-black);
   border-radius: 24px;
   padding: 3rem;
   position: relative;
@@ -727,15 +727,6 @@ img.logo-sena {
 
 .container_text--contacto {
   width: 100%;
-}
-
-.container_text--contacto p {
-  font-size: 1.6rem;
-  font-family: "Cooper Hewitt";
-  color: var(--white);
-  margin-bottom: 3rem;
-  letter-spacing: 1px;
-  line-height: 2.3rem;
 }
 
 .form-contact input {
@@ -757,8 +748,8 @@ img.logo-sena {
 }
 
 .form-contact .input-invalid {
-  border: 1px solid #574438;
-  color: #574438;
+  border: 1px solid #3d280f;
+  color: #3d280f;
 }
 
 .form-contact textarea {
@@ -785,11 +776,11 @@ img.logo-sena {
 }
 
 .form-contact textarea::-webkit-scrollbar-track {
-  background-color: #776254;
+  background-color: #613f19;
 }
 
 .form-contact textarea::-webkit-scrollbar-thumb {
-  background-color: #574438;
+  background-color: #3d280f;
 }
 
 .btn_form--contacto {
@@ -798,7 +789,7 @@ img.logo-sena {
 }
 
 .btn_form--contacto button {
-  background: #776254;
+  background: var(--black);
   border: none;
   font-family: "Cooper Hewitt";
   width: 20rem;
@@ -812,7 +803,7 @@ img.logo-sena {
 }
 
 .btn_form--contacto button:hover {
-  background: #776254;
+  background: #3d280f;
   color: var(--black);
   font-weight: bold;
   transform: scale(1.1);
@@ -821,7 +812,7 @@ img.logo-sena {
 }
 
 .btn_form--contacto button:active {
-  background: #574438;
+  background: #3d280f;
 }
 
 /* Footer */
@@ -894,7 +885,7 @@ footer {
 .go-top-button {
   width: 0rem;
   height: 0rem;
-  background: rgba(167, 137, 118, 1);
+  background: #613f19;
   box-shadow: 0px 6px 22px -6px rgba(0, 0, 0, 0.75);
   border-radius: 50%;
   cursor: pointer;
@@ -902,7 +893,11 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  transition: 0.2s;
+  transition: all 0.3s ease-in-out;
+}
+
+.go-top-button:hover {
+  background: #3d280f;
 }
 
 .go-top-button i {
