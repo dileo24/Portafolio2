@@ -458,7 +458,7 @@ span + span {
   align-items: center;
   justify-content: center;
   text-align: center;
-  filter: saturate(65%);
+  filter: saturate(75%);
   width: 13rem;
   height: 14rem;
 }
