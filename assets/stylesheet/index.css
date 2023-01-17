@@ -5,12 +5,12 @@
 }
 
 :root {
-  --white: #ffffff;
-  --light-grey: #b4a978;
-  --beaver: #b4a978;
-  --black: #613f19;
-  --eerie-black: #241603;
-  --jet: #1d0e02;
+  --white: #c9b9d3;
+  --light-grey: #aaa4da;
+  --beaver: rgb(93, 111, 187);
+  --black: #404258;
+  --eerie-black: #141824;
+  --jet: #131520;
 }
 
 * {
@@ -39,7 +39,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 ::selection {
-  background-color: #776254;
+  background-color: #404258;
 }
 
 /* Header */
@@ -287,7 +287,7 @@ span + span {
 
 .home_text-3 {
   font-family: "Cooper Hewitt";
-  color: var(--white);
+  color: var(--light-grey);
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -451,14 +451,14 @@ span + span {
 }
 
 .cards--habilidades {
-  background-color: var(--eerie-black);
+  background-color: #141824;
   border-radius: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  filter: saturate(40%);
+  filter: saturate(65%);
   width: 13rem;
   height: 14rem;
 }
@@ -748,8 +748,8 @@ img.logo-sena {
 }
 
 .form-contact .input-invalid {
-  border: 1px solid #3d280f;
-  color: #3d280f;
+  border: 1px solid #131520;
+  color: #131520;
 }
 
 .form-contact textarea {
@@ -776,11 +776,11 @@ img.logo-sena {
 }
 
 .form-contact textarea::-webkit-scrollbar-track {
-  background-color: #613f19;
+  background-color: #141824;
 }
 
 .form-contact textarea::-webkit-scrollbar-thumb {
-  background-color: #3d280f;
+  background-color: #131520;
 }
 
 .btn_form--contacto {
@@ -803,8 +803,8 @@ img.logo-sena {
 }
 
 .btn_form--contacto button:hover {
-  background: #3d280f;
-  color: var(--black);
+  background: #353c5c;
+  color: var(--white);
   font-weight: bold;
   transform: scale(1.1);
   box-shadow: 0px 9px 15px -1px rgba(0, 0, 0, 0.2);
@@ -812,7 +812,7 @@ img.logo-sena {
 }
 
 .btn_form--contacto button:active {
-  background: #3d280f;
+  background: #131520;
 }
 
 /* Footer */
@@ -885,7 +885,7 @@ footer {
 .go-top-button {
   width: 0rem;
   height: 0rem;
-  background: #613f19;
+  background: #141824;
   box-shadow: 0px 6px 22px -6px rgba(0, 0, 0, 0.75);
   border-radius: 50%;
   cursor: pointer;
@@ -897,7 +897,7 @@ footer {
 }
 
 .go-top-button:hover {
-  background: #3d280f;
+  background: #282c42;
 }
 
 .go-top-button i {
